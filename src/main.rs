@@ -16,7 +16,7 @@ fn main() {
 
     // Render
 
-    let mut file = File::create("image.ppm").expect("error in file loading");
+    let mut file = File::create("images/image.ppm").expect("error in file loading");
 
     writeln!(file, "P3\n{0} {1}\n255", image_width, image_height).expect("Couldn't write in file");
 
