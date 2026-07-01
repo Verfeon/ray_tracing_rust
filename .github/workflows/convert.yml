@@ -1,6 +1,9 @@
 name: convert PPM to PNG
 
-on: [push]
+on: 
+  push:
+    paths:
+      - "images/**"
 
 permissions: 
   contents: write
