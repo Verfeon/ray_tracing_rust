@@ -4,4 +4,4 @@ This project aims to learn the fundamentals of ray tracing by implementing a sim
 
 ## Preview
 
-![Ray tracing output](image.png)
+![Ray tracing output](images/image.png)
